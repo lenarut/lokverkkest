@@ -91,3 +91,45 @@ lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd kerti
 Enter new UNIX password: 
 Retype new UNIX password: 
 passwd: password updated successfully
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo groupadd sameign
+[sudo] password for lena: 
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign gryla
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign staur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign gaur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign stufur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign thvari
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign skefill
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign askur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign skellir
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign gamur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign bjugi
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign gluggi
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign gatti
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign krokur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign kerti
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild staur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild gaur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild stufur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild thvari
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild skefill
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild askur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild skellir
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G leikdeild gatti
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G leikdeild gryla
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G leikdeild gluggi
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G gjafadild gryla
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G songdeild gryla
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G songdeild gatti
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G songdeild krokur
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G songdeild kerti
+lena@lena-VirtualBox:~/lokverk/jolagogn$ getent group sameign
+sameign:x:1018:gryla,staur,gaur,stufur,thvari,skefill,askur,skellir,gamur,bjugi,gluggi,gatti,krokur,kerti
+lena@lena-VirtualBox:~/lokverk/jolagogn$ getent group gjafadild
+gjafadild:x:1001:gryla,staur,gaur,stufur,thvari,skefill,askur,skellir
+lena@lena-VirtualBox:~/lokverk/jolagogn$ getent group leikdeild
+leikdeild:x:1002:gatti,gryla,gluggi
+lena@lena-VirtualBox:~/lokverk/jolagogn$ getent group songdeild
+songdeild:x:1004:gryla,gatti,krokur,kerti
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo -s
+[sudo] password for lena: 
+root@lena-VirtualBox:~/lokverk/jolagogn# visudo
