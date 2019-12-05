@@ -1,0 +1,16 @@
+lena@lena-VirtualBox:~$ mkdir lokverk
+lena@lena-VirtualBox:~$ cd lokverk
+lena@lena-VirtualBox:~/lokverk$ mkdir jolagogn
+lena@lena-VirtualBox:~/lokverk$ cd jolagogn
+lena@lena-VirtualBox:~/lokverk/jolagogn$ mkdir Sameign
+lena@lena-VirtualBox:~/lokverk/jolagogn$ mkdir Gjafadeild
+lena@lena-VirtualBox:~/lokverk/jolagogn$ mkdir Leikdeild
+lena@lena-VirtualBox:~/lokverk/jolagogn$ mkdir Songdeild
+lena@lena-VirtualBox:~/lokverk/jolagogn$ cd ..
+lena@lena-VirtualBox:~/lokverk$ tree
+.
+└── jolagogn
+    ├── Gjafadeild
+    ├── Leikdeild
+    ├── Sameign
+    └── Songdeild
