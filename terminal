@@ -132,4 +132,4 @@ lena@lena-VirtualBox:~/lokverk/jolagogn$ getent group songdeild
 songdeild:x:1004:gryla,gatti,krokur,kerti
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo -s
 [sudo] password for lena: 
-root@lena-VirtualBox:~/lokverk/jolagogn# visudo
+lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sudo gryla
