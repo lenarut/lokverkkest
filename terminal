@@ -21,76 +21,256 @@ lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo groupadd leikdeild
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo groupadd sameign
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo groupadd songdeild
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo groupdel sameign
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd gryla
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd gryla
-Enter new UNIX password: 
-Retype new UNIX password: 
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser gryla
+Adding user `gryla' ...
+Adding new group `gryla' (1001) ...
+Adding new user `gryla' (1001) with group `gryla' ...
+Creating home directory `/home/gryla' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd staur
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd staur
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for gryla
+Enter the new value, or press ENTER for the default
+        Full Name []: Grýla
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Grýla'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser staur
+Adding user `staur' ...
+Adding new group `staur' (1005) ...
+Adding new user `staur' (1002) with group `staur' ...
+Creating home directory `/home/staur' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd gaur
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd gaur
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for staur
+Enter the new value, or press ENTER for the default
+        Full Name []: Stekkjastaur
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser gaur
+Adding user `gaur' ...
+Adding new group `gaur' (1006) ...
+Adding new user `gaur' (1003) with group `gaur' ...
+Creating home directory `/home/gaur' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd stufur
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd stufur
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for gaur
+Enter the new value, or press ENTER for the default
+        Full Name []: Giljagaur
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ pass.123
+pass.123: command not found
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser stufur
+Adding user `stufur' ...
+Adding new group `stufur' (1007) ...
+Adding new user `stufur' (1004) with group `stufur' ...
+Creating home directory `/home/stufur' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd thvari
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd thvari
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for stufur
+Enter the new value, or press ENTER for the default
+        Full Name []: Stúfur
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Stúfur'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser thvari
+Adding user `thvari' ...
+Adding new group `thvari' (1008) ...
+Adding new user `thvari' (1005) with group `thvari' ...
+Creating home directory `/home/thvari' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd skefill
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd skefill
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for thvari
+Enter the new value, or press ENTER for the default
+        Full Name []: Þvörusleikir
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Þvörusleikir'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser skefill
+Adding user `skefill' ...
+Adding new group `skefill' (1009) ...
+Adding new user `skefill' (1006) with group `skefill' ...
+Creating home directory `/home/skefill' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd askur
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd askur
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for skefill
+Enter the new value, or press ENTER for the default
+        Full Name []: Pottaskefill
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser askur
+Adding user `askur' ...
+Adding new group `askur' (1010) ...
+Adding new user `askur' (1007) with group `askur' ...
+Creating home directory `/home/askur' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd skellir
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd skellir
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for askur
+Enter the new value, or press ENTER for the default
+        Full Name []: Askasleikir
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser skellir
+Adding user `skellir' ...
+Adding new group `skellir' (1011) ...
+Adding new user `skellir' (1008) with group `skellir' ...
+Creating home directory `/home/skellir' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd gamur
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd gamur
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for skellir
+Enter the new value, or press ENTER for the default
+        Full Name []: Hurðaskellir
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Hurðaskellir'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser gamur
+Adding user `gamur' ...
+Adding new group `gamur' (1012) ...
+Adding new user `gamur' (1009) with group `gamur' ...
+Creating home directory `/home/gamur' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd bjugi
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd bjugi
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for gamur
+Enter the new value, or press ENTER for the default
+        Full Name []: Skyrgámur
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Skyrgámur'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser bjugi
+Adding user `bjugi' ...
+Adding new group `bjugi' (1013) ...
+Adding new user `bjugi' (1010) with group `bjugi' ...
+Creating home directory `/home/bjugi' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd gluggi
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd gluggi
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for bjugi
+Enter the new value, or press ENTER for the default
+        Full Name []: Bjúgnakrækir
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Bjúgnakrækir'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser gluggi
+Adding user `gluggi' ...
+Adding new group `gluggi' (1014) ...
+Adding new user `gluggi' (1011) with group `gluggi' ...
+Creating home directory `/home/gluggi' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd gatti
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd gatti
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for gluggi
+Enter the new value, or press ENTER for the default
+        Full Name []: Gluggagæir
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Gluggagæir'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser gatti
+Adding user `gatti' ...
+Adding new group `gatti' (1015) ...
+Adding new user `gatti' (1012) with group `gatti' ...
+Creating home directory `/home/gatti' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd krokur
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd krokur
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for gatti
+Enter the new value, or press ENTER for the default
+        Full Name []: Gáttaþefur
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Gáttaþefur'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser krokur
+Adding user `krokur' ...
+Adding new group `krokur' (1016) ...
+Adding new user `krokur' (1013) with group `krokur' ...
+Creating home directory `/home/krokur' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo useradd kerti
-lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo passwd kerti
-Enter new UNIX password: 
-Retype new UNIX password: 
+Changing the user information for krokur
+Enter the new value, or press ENTER for the default
+        Full Name []: Ketkrókur
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Ketkrókur'
+Is the information correct? [Y/n] y
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo adduser kerti
+Adding user `kerti' ...
+Adding new group `kerti' (1017) ...
+Adding new user `kerti' (1014) with group `kerti' ...
+Creating home directory `/home/kerti' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
 passwd: password updated successfully
+Changing the user information for kerti
+Enter the new value, or press ENTER for the default
+        Full Name []: Kertasníkir
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+chfn: name with non-ASCII characters: 'Kertasníkir'
+Is the information correct? [Y/n] y
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo groupadd sameign
 [sudo] password for lena: 
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sameign gryla
@@ -133,3 +313,120 @@ songdeild:x:1004:gryla,gatti,krokur,kerti
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo -s
 [sudo] password for lena: 
 lena@lena-VirtualBox:~/lokverk/jolagogn$ sudo usermod -a -G sudo gryla
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ cd /home/gryla
+lenarut@lenarut-VirtualBox:/home/gryla$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/gryla$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/gryla$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/askur
+lenarut@lenarut-VirtualBox:/home/askur$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/askur$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/askur$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/staur
+lenarut@lenarut-VirtualBox:/home/staur$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/staur$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/staur$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/gaur
+lenarut@lenarut-VirtualBox:/home/gaur$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/gaur$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/gaur$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/stufur 
+lenarut@lenarut-VirtualBox:/home/stufur$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/stufur$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/stufur$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/thvari
+lenarut@lenarut-VirtualBox:/home/thvari$ sudo mkdir Vinna 
+lenarut@lenarut-VirtualBox:/home/thvari$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/thvari$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/skefill
+lenarut@lenarut-VirtualBox:/home/skefill$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/skefill$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/skefill$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/skellir
+lenarut@lenarut-VirtualBox:/home/skellir$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/skellir$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/skellir$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/gamur
+lenarut@lenarut-VirtualBox:/home/gamur$ sudo mkdir Vinna 
+lenarut@lenarut-VirtualBox:/home/gamur$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/gamur$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/bjugi
+lenarut@lenarut-VirtualBox:/home/bjugi$ sudo mkdir Vinna 
+lenarut@lenarut-VirtualBox:/home/bjugi$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/bjugi$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/gluggi
+lenarut@lenarut-VirtualBox:/home/gluggi$ sudo mkdir Vinna 
+lenarut@lenarut-VirtualBox:/home/gluggi$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/gluggi$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/gatti
+lenarut@lenarut-VirtualBox:/home/gatti$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/gatti$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/gatti$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/krokur
+lenarut@lenarut-VirtualBox:/home/krokur$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/krokur$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/krokur$ cd ..
+lenarut@lenarut-VirtualBox:/home$ cd /home/kerti
+lenarut@lenarut-VirtualBox:/home/kerti$ sudo mkdir Vinna
+lenarut@lenarut-VirtualBox:/home/kerti$ sudo mkdir Leikir
+lenarut@lenarut-VirtualBox:/home/kerti$ cd ..
+lenarut@lenarut-VirtualBox:/home$ tree
+.
+├── askur
+│   ├── Leikir
+│   └── Vinna
+├── bjugi
+│   ├── Leikir
+│   └── Vinna
+├── gamur
+│   ├── Leikir
+│   └── Vinna
+├── gatti
+│   ├── Leikir
+│   └── Vinna
+├── gaur
+│   ├── Leikir
+│   └── Vinna
+├── gluggi
+│   ├── Leikir
+│   └── Vinna
+├── gryla
+│   ├── Leikir
+│   └── Vinna
+├── kerti
+│   ├── Leikir
+│   └── Vinna
+├── krokur
+│   ├── Leikir
+│   └── Vinna
+├── lenarut
+│   ├── Desktop
+│   ├── Documents
+│   ├── Downloads
+│   ├── lokverk
+│   │   └── jolagogn
+│   │       ├── Gjafadeild
+│   │       ├── Leikdeild
+│   │       ├── Sameign
+│   │       └── Songdeild
+│   ├── Music
+│   ├── Pictures
+│   ├── Public
+│   ├── Templates
+│   └── Videos
+├── skefill
+│   ├── Leikir
+│   └── Vinna
+├── skellir
+│   ├── Leikir
+│   └── Vinna
+├── staur
+│   ├── Leikir
+│   └── Vinna
+├── stufur
+│   ├── Leikir
+│   └── Vinna
+└── thvari
+    ├── Leikir
+    └── Vinna
+
+57 directories, 0 files
