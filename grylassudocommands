@@ -1,0 +1,11 @@
+#!/bin/bash
+        You will notice that you have sudo commands well others do not. This is why you need
+ to unlock Askasleikirs and Hurðaskelirs passwords. Simply run the commands
+                                sudo passwd -u askur
+                                sudo passwd -u skellir
+        If someone new joins the team you will have to creat an accout for them by using the
+ commands
+                                sudo adduser (usersname)
+                                sudo passwd (pass.123)
+        Ones youve created the account youll need to add them to one of the groups.
+                                sudo usermod -a -G (group) (user)
