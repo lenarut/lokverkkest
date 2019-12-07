@@ -430,3 +430,26 @@ lenarut@lenarut-VirtualBox:/home$ tree
     └── Vinna
 
 57 directories, 0 files
+
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo chgrp sameign ./Sameign
+[sudo] password for lenarut: 
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo chgrp gjafadeild ./Gjafadeild
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo chgrp leikdeild ./Leikdeild 
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo chgrp songdeild ./Songdeild
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ chmod 700 Leikdeild  
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ chmod 700 Songdeild
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ chmod 700 Gjafadeild
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ chmod 777 Sameign
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ ls -l
+total 16
+drwx------ 2 lenarut gjafadeild 4096 Dec  5 23:16 Gjafadeild
+drwx------ 2 lenarut leikdeild  4096 Dec  5 23:16 Leikdeild
+drwxrwxrwx 2 lenarut sameign    4096 Dec  5 23:16 Sameign
+drwx------ 2 lenarut songdeild  4096 Dec  5 23:17 Songdeild
+enarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo passwd -l askur
+[sudo] password for lenarut: 
+passwd: password expiry information changed.
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ sudo passwd -l skellir
+passwd: password expiry information changed.
+lenarut@lenarut-VirtualBox:~/lokverk/jolagogn$ cd /home/gryla
+lenarut@lenarut-VirtualBox:/home/gryla$ sudo nano sudocommands.md
